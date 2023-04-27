@@ -1,6 +1,6 @@
 const Button = ({loggedIn, toggleLoggedIn}) => {
     return (
-        <div>{loggedIn ? 'Login' : 'Logout'}</div>
+        <button onClick={toggleLoggedIn}>{loggedIn ? 'Login' : 'Logout'}</button>
     )
 }
 
