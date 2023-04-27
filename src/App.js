@@ -15,7 +15,7 @@ const App = () =>{
         <>
             <Header loggedIn={loggedIn}/>
             <Content/>
-            <Footer loggedIn={loggedIn}/>
+            <Footer loggedIn={loggedIn} toggleLoggedIn={toggleLoggedIn}/>
         </>
     );
 }

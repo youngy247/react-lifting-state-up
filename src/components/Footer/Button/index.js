@@ -1,4 +1,4 @@
-const Button = ({loggedIn}) => {
+const Button = ({loggedIn, toggleLoggedIn}) => {
     return (
         <div>{loggedIn ? 'Login' : 'Logout'}</div>
     )
