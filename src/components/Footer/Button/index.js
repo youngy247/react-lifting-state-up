@@ -1,6 +1,6 @@
 const Button = ({loggedIn}) => {
     return (
-        <div>Button</div>
+        <div>{loggedIn ? 'Login' : 'Logout'}</div>
     )
 }
 
