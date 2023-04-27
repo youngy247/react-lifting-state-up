@@ -8,7 +8,7 @@ const App = () =>{
     const [loggedIn, setLoggedIn] = useState(false)
     return (
         <>
-            <Header/>
+            <Header loggedIn={loggedIn}/>
             <Content/>
             <Footer/>
         </>
